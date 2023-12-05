@@ -23,6 +23,7 @@ butInstall.addEventListener('click', async () => {
   // TODO: Notice line 8 above. We want the same line here, but the hidden value should be set to true.
   butInstall.classList.toggle('hidden', true); //done
   // Insert line here
+  
 });
 
 window.addEventListener('appinstalled', (event) => {
